@@ -1,4 +1,4 @@
-const API_URL = 'https://server2.inf.uct.cl';
+const API_URL = 'https://bigdata9.inf.uct.cl';
 
 const form = document.getElementById('task-form');
 const input = document.getElementById('task-input');
