@@ -33,5 +33,5 @@ jobs:
         with:
           context: ./client
           push: true
-          tags: ghcr.io/${{ steps.owner.outputs.lc }}/kubero_demo-client:latest
+          tags: ghcr.io/${{ steps.owner.outputs.lc }}/kubero_demo:latest
           labels: org.opencontainers.image.source=https://github.com/${{ github.repository }}
